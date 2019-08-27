@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* ヘッダー関係 */
+header {
+  position: fixed;
+}
+
+.header {
+  position: relative;
+  height: 80px;
+  padding: 0 100px;
+  background: #f0cba5;
+  -webkit-box-shadow: 0 3px 3px 0 #a36f37;
+  box-shadow: 0 3px 3px 0 #a36f37;
+}
+
+.header p {
+  font-size: 40px;
+  line-height: 80px;
+  font-style: oblique;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  font-family: 'Corben', cursive;
+}
+
+.header-left {
+  position: absolute;
+}
+
+.header-right {
+  float: right;
+  line-height: 80px;
+}
+
+.header-right a {
+  color: #784f13;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: #55acee;
+}
+
+.fa-envelope {
+  font-size: 30px;
+  color: white;
+}
+
+/* トップページメイン */
+.info {
+  position: relative;
+  height: calc(100vh - 80px);
+  background: url("portback.jpg") fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.info-menu {
+  position: absolute;
+  width: 100%;
+  margin-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#fadein {
+  display: none;
+}
+
+.info-about, .info-work {
+  height: 300px;
+  float: left;
+  width: 250px;
+  font-family: HuiFontP109;
+  color: black;
+  background-image: url("menu.jpg");
+  background-size: cover;
+  padding: 15px;
+  border: 5px solid #784f13;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  line-height: 1.9;
+}
+
+.info-study {
+  height: 300px;
+  float: left;
+  width: 250px;
+  font-family: HuiFontP109;
+  color: black;
+  background-image: url("menu.jpg");
+  background-size: cover;
+  margin: 0 -80px;
+  padding: 15px;
+  border: 5px solid #784f13;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  line-height: 1.9;
+}
+
+.info-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.info-about p, .info-work p {
+  font-size: 18px;
+  color: black;
+}
+
+.info-about a, .info-study a, .info-work a {
+  float: right;
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+}
+
+/* 各ページ */
+.more-info {
+  position: relative;
+  height: calc(100vh - 80px);
+  background: url("portback.jpg") fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.main-text {
+  position: absolute;
+  width: 900px;
+  height: 550px;
+  left: 0;
+  right: 0;
+  margin: 50px auto 0;
+  padding: 20px;
+  background: white;
+  border: 5px solid #784f13;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  overflow: scroll;
+}
+
+/* ABOUT ME */
+.about-title {
+  font-size: 42px;
+  text-align: center;
+}
+
+.main-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* THE WORK */
+.heading {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+/*# sourceMappingURL=style.css.map */
