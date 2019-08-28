@@ -10,11 +10,14 @@ body{
 
 .header {
   position: relative;
+  position: fixed;
   height: 80px;
-  padding: 0 100px;
+  width: 100%;
   background: #f0cba5;
   -webkit-box-shadow: 0 3px 3px 0 #a36f37;
   box-shadow: 0 3px 3px 0 #a36f37;
+  z-index: 1;
+  justify-content: space-between;
 }
 
 .header p {
@@ -26,13 +29,17 @@ body{
   font-family: 'Corben', cursive;
 }
 
-.header-left {
+.header-left{
   position: absolute;
+  left: 0;
+  margin-left: 100px;
 }
 
 .header-right {
-  float: right;
+  position: absolute;
+  right: 0;
   line-height: 80px;
+  margin-right: 80px;
 }
 
 .header-right a {
@@ -59,6 +66,7 @@ body{
 .info {
   position: relative;
   height: calc(100vh - 80px);
+  padding-top: 80px;
   background: url("portback.jpg") fixed;
   background-size: cover;
   opacity: 0.8;
@@ -133,23 +141,28 @@ body{
 .main-text {
   position: absolute;
   width: 900px;
-  height: 550px;
+  min-height: 550px;
   left: 0;
   right: 0;
-  margin: 50px auto 0;
+  margin: 50px auto;
   padding: 20px;
   background: #ffeed1;
   border: 5px solid #784f13;
   border-radius: 3px;
   -webkit-box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
   box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
-  overflow: scroll;
 }
 
 /* ABOUT ME */
+
+.more-info{
+  padding-top: 80px;
+}
+
 .about-title {
   font-size: 42px;
   text-align: center;
+  margin: 20px 0 40px;
 }
 
 .main-text p {
@@ -159,6 +172,7 @@ body{
 
 .myimg{
   padding: 0 350px;
+  margin: 40px 0;
 }
 
 .myimg img{
@@ -172,4 +186,38 @@ body{
   font-size: 22px;
   margin-bottom: 3px;
 }
-/*# sourceMappingURL=style.css.map */
+
+/* STUDY */
+.study-title{
+  font-size: 42px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.study-text{
+  text-align: center;
+}
+
+.study-text p{
+  left: 0;
+  right: 0;
+  margin: auto;
+  line-height: 50px;
+  width: 60%;
+  font-size: 18px;
+  border: 1px solid #fcc76a;
+}
+.color{
+  background: #f7e3c1;
+}
+.color2{
+  background: #f7dfb5;
+}
+
+.details{
+  margin-top: 30px;
+  font-size: 24px;
+}
+.details p{
+  font-size: 18px;
+}
