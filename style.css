@@ -231,7 +231,7 @@ body{
 .empty-box{
   border-bottom: 2px solid #fcc76a;
   width: 550px;
-  margin: 10px auto 30px;
+  margin: 30px auto;
 }
 
 .language-example{
