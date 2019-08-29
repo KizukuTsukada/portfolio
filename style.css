@@ -217,7 +217,44 @@ body{
 .details{
   margin-top: 30px;
   font-size: 24px;
+  text-align: center;
 }
 .details p{
+  font-size: 18px;
+}
+
+.ten{
+  font-size: 35px;
+  text-align: center;
+}
+
+.empty-box{
+  border-bottom: 2px solid #fcc76a;
+  width: 550px;
+  margin: 10px auto 30px;
+}
+
+.language-example{
+  text-decoration: underline;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.study-main-text{
+  position: absolute;
+  width: 900px;
+  min-height: 550px;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffeed1;
+  border: 5px solid #784f13;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+  box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+}
+
+.study-main-text p{
   font-size: 18px;
 }
