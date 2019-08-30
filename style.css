@@ -223,6 +223,10 @@ body{
   font-size: 18px;
 }
 
+.details a{
+  font-size: 18px;
+}
+
 .ten{
   font-size: 35px;
   text-align: center;
