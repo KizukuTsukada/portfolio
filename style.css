@@ -67,7 +67,7 @@ body{
   position: relative;
   height: calc(100vh - 80px);
   padding-top: 80px;
-  background: url("portback.jpg") fixed;
+  background: url("images/portback.jpg") fixed;
   background-size: cover;
   opacity: 0.8;
 }
@@ -94,7 +94,7 @@ body{
   width: 250px;
   font-family: HuiFontP109;
   color: black;
-  background-image: url("menu.jpg");
+  background-image: url("images/menu.jpg");
   background-size: cover;
   padding: 15px;
   border: 5px solid #784f13;
@@ -110,7 +110,7 @@ body{
   width: 250px;
   font-family: HuiFontP109;
   color: black;
-  background-image: url("menu.jpg");
+  background-image: url("images/menu.jpg");
   background-size: cover;
   margin: 0 -80px;
   padding: 15px;
@@ -170,12 +170,12 @@ body{
   margin-top: 30px;
 }
 
-.myimg{
+.my-img{
   padding: 0 350px;
   margin: 40px 0;
 }
 
-.myimg img{
+.my-img img{
   height: 200px;
   width: 200px;
   border-radius: 50%;
