@@ -1,15 +1,55 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-  
-}
 
-/* モバイル向けレイアウト */
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-  
+  /* home */
   .menu-icon {
     display: block;
+  }
+
+  .info-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .info-study, .info-work {
+    margin-top: 30px;
+  }
+
+  /* about */
+  .my-img {
+    padding: 0 37%;
+    margin: 40px auto;
+  }
+  .main-text,.study-main-text,.work-main-text {
+    width: 80%;
+    margin: 50px auto;
+  }
+}
+/* モバイル向けレイアウト */
+@media (max-width: 670px) {
+  /* home */
+  .menu-icon {
+    display: block;
+  }
+
+  .info-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .info-study, .info-work {
+    margin-top: 30px;
+  }
+
+  /* about */
+  .my-img {
+    padding: 0 37%;
+    margin: 40px auto;
+  }
+  .main-text,.study-main-text,.work-main-text {
+    width: 80%;
+    margin: 50px auto;
   }
 }
