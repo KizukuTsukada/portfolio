@@ -25,6 +25,9 @@
     width: 80%;
     margin: 50px auto;
   }
+  .header-left p {
+    display: none;
+  }
 }
 /* モバイル向けレイアウト */
 @media (max-width: 670px) {
@@ -51,5 +54,8 @@
   .main-text,.study-main-text,.work-main-text {
     width: 80%;
     margin: 50px auto;
+  }
+  .header-left p {
+    display: none;
   }
 }
